@@ -14,26 +14,6 @@ Join Paths is a social media platform where users can post, like, comment, and f
 - **Server:** Node.js, GraphQL
 - **Database:** PostgreSQL
 
-## Project Structure
-
-```
-/client
-  /pages
-  /components
-  /styles
-  .env
-  next.config.js
-  tailwind.config.js
-
-/server
-  /src
-  /resolvers
-  /models
-  .env
-  index.js
-  graphql-schema.js
-```
-
 ## Environment Variables
 
 ### Client
@@ -94,7 +74,7 @@ JWT_SECRET=your_jwt_secret
 3. Start the server:
 
    ```bash
-   npm start
+   nodemon server.js
    ```
 
 ## Usage
